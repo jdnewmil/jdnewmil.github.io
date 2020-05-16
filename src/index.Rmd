@@ -1,0 +1,57 @@
+---
+title: "Index"
+author: "Jeff Newmiller"
+date: "5/16/2020"
+output: html_document
+knit: (function(input_file, encoding) {
+   out_dir <- '.';
+   rmarkdown::render( input_file
+                    , encoding = encoding
+                    , output_file = file.path( dirname(input_file)
+                                             , ".."
+                                             , out_dir
+                                             , 'index.html'
+                                             )
+                    )
+   })
+---
+
+# Index
+
+## Presentations
+- [Do It Again R!](RLoopsAndGroups/DoItAgainR.html)
+
+Discussion of taking analysis to the next level, repeating it with varying inputs.
+
+- [Kern Climate](eci298sp2016/KernClimate.html)
+
+Example graduate-level optimization analysis using the technique of "linear programming".
+
+## Various Analyses
+
+- [SimpleData](https://jdnewmil.github.io/eci298sp2016/SimpleData1.html)
+
+Presentation on how to structure analyses built using scripting.
+
+- [Floods](https://jdnewmil.github.io/eci298sp2016/floods.html)
+
+Example engineering analysis illustrating the structure advice from the SimpleData presentation above.
+
+## R Notes
+
+- [Quick Howtos 1](https://jdnewmil.github.io/eci298sp2016/QuickHowtos1.html)
+
+Examples of useful techniques for using R as a computational modeling tool, focusing on graphing and column-wise computation.
+
+- [Quick Howtos 2](https://jdnewmil.github.io/eci298sp2016/QuickHowto2.pdf)
+
+Examples of useful techniques for using R as a computational modeling tool, particularly focusing on dealing with timestamp information. Uses PDF markdown output.
+
+- [ECI298 R Handout](https://jdnewmil.github.io/eci298sp2016/handout1.pdf)
+
+Summary/cheatsheet for common things you mignt do with R.
+
+- [Datetime Howto](https://jdnewmil.github.io/time-2018-10/DatetimeHowto.html)
+
+Tips for working with date-time information in R. Note that this approach does not use the lubridate package, because handling time zones is "convenient" but inefficient in lubridate.
+
