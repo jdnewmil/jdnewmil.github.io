@@ -16,42 +16,53 @@ knit: (function(input_file, encoding) {
    })
 ---
 
-# Index
+# Random Thoughts
+
+A collection of writings on R.
 
 ## Presentations
 - [Do It Again R!](RLoopsAndGroups/DoItAgainR.html)
 
 Discussion of taking analysis to the next level, repeating it with varying inputs.
 
+- [Datetime Howto](time-2018-10/DatetimeHowto.html)
+
+Tips for working with date-time information in R. Note that this approach does not use the lubridate package, because handling time zones is "convenient" but inefficient in lubridate.
+
+- [More Datetime Howto](time-2018-10/MoreDatetimeHowto.html)
+
+Examples of timezone issues.
+
+- [Timestamp cleanup](time-2018-10/TimestampCleaning.html)
+
+Time series data are not always come in a clean obvious layout... examples of plots that can be used to identify issues.
+
+## Various Analyses
+
+- [SimpleData](eci298sp2016/SimpleData1.html)
+
+Presentation on how to structure analyses built using scripting.
+
 - [Kern Climate](eci298sp2016/KernClimate.html)
 
 Example graduate-level optimization analysis using the technique of "linear programming".
 
-## Various Analyses
-
-- [SimpleData](https://jdnewmil.github.io/eci298sp2016/SimpleData1.html)
-
-Presentation on how to structure analyses built using scripting.
-
-- [Floods](https://jdnewmil.github.io/eci298sp2016/floods.html)
+- [Floods](eci298sp2016/floods.html)
 
 Example engineering analysis illustrating the structure advice from the SimpleData presentation above.
 
 ## R Notes
 
-- [Quick Howtos 1](https://jdnewmil.github.io/eci298sp2016/QuickHowtos1.html)
+- [Quick Howtos 1](eci298sp2016/QuickHowtos1.html)
 
 Examples of useful techniques for using R as a computational modeling tool, focusing on graphing and column-wise computation.
 
-- [Quick Howtos 2](https://jdnewmil.github.io/eci298sp2016/QuickHowto2.pdf)
+- [Quick Howtos 2](eci298sp2016/QuickHowto2.pdf)
 
 Examples of useful techniques for using R as a computational modeling tool, particularly focusing on dealing with timestamp information. Uses PDF markdown output.
 
-- [ECI298 R Handout](https://jdnewmil.github.io/eci298sp2016/handout1.pdf)
+- [ECI298 R Handout](eci298sp2016/handout1.pdf)
 
 Summary/cheatsheet for common things you mignt do with R.
 
-- [Datetime Howto](https://jdnewmil.github.io/time-2018-10/DatetimeHowto.html)
-
-Tips for working with date-time information in R. Note that this approach does not use the lubridate package, because handling time zones is "convenient" but inefficient in lubridate.
 
