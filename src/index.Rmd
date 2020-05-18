@@ -34,7 +34,7 @@ Examples of timezone issues.
 
 - [Timestamp cleanup](time-2018-10/TimestampCleaning.html)
 
-Time series data are not always come in a clean obvious layout... examples of plots that can be used to identify issues.
+Time series data don't always come in a clean obvious layout... here are some examples of plots that can be used to identify issues in time series data.
 
 ## Various Analyses
 
