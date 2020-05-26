@@ -19,6 +19,10 @@ knit: (function(input_file, encoding) {
 
 A collection of writings on R.
 
+## Blog
+
+Later [musings](https://jdnewmil.github.io/blog/).
+
 ## Presentations
 - [Do It Again R!](RLoopsAndGroups/DoItAgainR.html)
 
